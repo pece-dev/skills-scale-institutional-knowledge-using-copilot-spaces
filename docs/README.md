@@ -2,6 +2,10 @@
 
 Welcome to the OctoAcme Project Management framework. This directory contains comprehensive guidance for running projects across OctoAcme, from initial concept through delivery and retrospectives. Use these docs as your single source of truth for process, roles, and templates.
 
+## Project Management Overview
+
+A concise orientation to how OctoAcme runs projects is available here: ./octoacme-project-management-overview.md. Use that doc for a quick read on lifecycle stages, core roles, key artifacts, and communication cadence.
+
 ## Overview
 
 OctoAcme runs projects with a clear, staged lifecycle that begins with a lightweight initiation and moves through planning, execution, release, and retrospective. Projects are kicked off with a one‑pager capturing the problem, objective, success metrics, stakeholders, and a high‑level timeline; that one‑pager and a simple decision gate determine whether work moves into detailed planning. Planning produces a prioritized backlog with acceptance criteria, estimates, a Definition of Done, and a release/milestone map. Day‑to‑day work is tracked on a project board (Backlog → Ready → In Progress → In Review → QA → Done) and by small, focused pull requests that link to issues and include acceptance criteria.
@@ -11,6 +15,9 @@ Roles and ownership are explicit: each project has a named Project Manager (coor
 Communication follows a predictable cadence to keep stakeholders aligned and surface blockers early: daily standups for progress and impediments, a weekly delivery sync and PM–PdM alignment, scheduled demos at the end of sprints or milestones, and monthly stakeholder briefings. CI and automated checks gate code review, with unit and integration tests, end‑to‑end smoke tests for critical flows, security scanning in pipelines, and manual QA for feature acceptance when necessary. Releases use a deployment checklist, staged verification, and a rollback playbook to reduce production risk.
 
 ## Quick Start (when to use each doc)
+
+- Project Management Overview: ./octoacme-project-management-overview.md
+  When: for a concise introduction to principles, roles, and lifecycle stages.
 
 - Project Initiation: ./octoacme-project-initiation.md  
   When: for new project ideas or feature proposals. Use to validate business need and align stakeholders.
